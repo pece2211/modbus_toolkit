@@ -1,0 +1,7 @@
+"SIMULATOR"
+python simulator.py --val 36.5 --bo big --wo little
+
+"debugger"
+python modbus_debugger.py --ip 127.0.0.1 --port 5020 --range 36 37
+
+python modbus_debugger.py --ip 127.0.0.1 --port 5020
